@@ -13,21 +13,55 @@
 - [[#description][Description]]
   - [[#features][Features:]]
 - [[#install][Install]]
+- [[#voice-bindings][Voice bindings]]
 - [[#key-bindings][Key bindings]]
 
 * Description
 This layer adds support for voice control using Serenade mode.
 
 ** Features:
-  - Autocomplete
-  - Lint
-  - Refactor
+- Autocomplete
+- Lint
+- Refactor
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =serenade= to the existing =dotspacemacs-configuration-layers= list in this
 file.
 
+* Voice bindings
+  ** serenade builtin commands
+
+| Key Binding             | Description                                       |
+|-------------------------+---------------------------------------------------|
+| ~SPC x x x~             | Does thing01                                      |
+| close tab               | delete-window                                     |
+| continue debug          | nil                                               |
+| create tab              | split-window-right-and-focus                      |
+| debug inline breakpoint | nil                                               |
+| debug step into         | nil                                               |
+| debug step over         | nil                                               |
+| debug toggle breakpoint | nil                                               |
+| go to definition        | spacemacs/jump-to-definition                      |
+| next tab                | next-buffer                                       |
+| open file list          | spacemacs-layouts/non-restricted-buffer-list-helm |
+| open file               | nil                                               |
+| pause debug             | nil                                               |
+| previous tab            | previous-buffer                                   |
+| redo                    | serenade--redo                                    |
+| save                    | save-buffer                                       |
+| scroll                  | zz-scroll-half-page-down                          |
+| show hover              | nil                                               |
+| start debug             | nil                                               |
+| stop debug              | nil                                               |
+| style                   | nil                                               |
+| switch tab              | nil                                               |
+| undo                    | serenade--undo                                    |
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
 * Key bindings
 
 | Key Binding | Description    |
