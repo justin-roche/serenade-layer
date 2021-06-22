@@ -6,7 +6,7 @@
 #+TAGS: layer|web service
 
 # The maximum height of the logo should be 200 pixels.
-[[img/serenade.png]]
+# [[img/serenade.png]]
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
@@ -16,13 +16,12 @@
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer adds support for something.
+This layer adds support for voice control using Serenade mode.
 
 ** Features:
   - Autocomplete
   - Lint
   - Refactor
-  - ...
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
