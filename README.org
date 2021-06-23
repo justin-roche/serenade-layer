@@ -17,7 +17,7 @@
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer adds support for voice control using [Serenade mode](https://github.com/justin-roche/serenade-mode).
+This layer adds support for voice control using [[https://github.com/justin-roche/serenade-mode][Serenade mode]].
 
 ** Features:
 - Autocomplete
